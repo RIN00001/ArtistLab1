@@ -47,7 +47,7 @@ fun HomePage(
             Column(
                 modifier = modifier
                     .fillMaxSize()
-                    .background(color = Color(0xFF121212))
+                    .background(color = Color(0xFF2A2A2A))
             ) {
                 TopBanner(title = state.artist.name)
 
